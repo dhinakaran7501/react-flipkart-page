@@ -1,0 +1,95 @@
+.EssentialsForKids a {
+    text-decoration: none;
+  }
+  .EssentialsForKids {
+    padding: 0px 16px;
+    overflow: hidden;
+  }
+  .EssentialsForKids .bgcolor {
+    background-color: white;
+    padding: 0px 18px;
+    width: 100%;
+  }
+  .EssentialsForKids .row {
+    padding: 12px !important;
+    margin-bottom: 0px;
+  }
+  .EssentialsForKids .subTopic a {
+    text-decoration: none;
+    color: black;
+  }
+  .EssentialsForKids .greatericon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2a55e5;
+    width: 25px !important;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #2a55e5;
+  }
+  .EssentialsForKids .greatericon > a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+  }
+  .EssentialsForKids .mainTopic {
+    padding: 8px 21px !important;
+  }
+  .EssentialsForKids .col-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .EssentialsForKids .card {
+    width: 235px;
+    padding: 8px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .EssentialsForKids .card img {
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+    transition: 0.5s;
+  }
+  .EssentialsForKids .card-body {
+    padding: 0 !important;
+  }
+  .EssentialsForKids .card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .EssentialsForKids .card-text p,
+  h5 {
+    margin-bottom: 0 !important;
+  }
+  .EssentialsForKids .card-text > p {
+    font-size: 15px;
+  }
+  .EssentialsForKids .card-text > h5 {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: green;
+  }
+  .EssentialsForKids .boe-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .EssentialsForKids .card img:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+  }
+  .EssentialsForKids .addImg img {
+    height: -webkit-fill-available;
+    width: 100%;
+  }
+  

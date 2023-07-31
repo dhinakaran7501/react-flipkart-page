@@ -1,0 +1,60 @@
+.collection-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  margin: 8px 57px;
+  padding: 16px;
+}
+.flex-sec {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  height: 124px;
+}
+.img-sec {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  height: 100px;
+}
+.img-sec {
+  text-decoration: none;
+  color: black;
+}
+.img-sec > h6 {
+  font-size: 13px;
+  margin: 0;
+}
+form,
+.flipkart-logo {
+  margin-left: 48px;
+}
+::-webkit-scrollbar{
+  display: none;
+}
+/* Media Queries */
+@media (max-width: 1300px) {
+  .flex-sec > a {
+    min-width: 144px;
+    height: 128px;
+  }
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+    .flex-sec > a {
+        min-width: 130px;
+        height: 124px;
+      }
+}
+@media (max-width: 480px) {
+  #root{
+    width: 100%;
+  }
+    .flex-sec > a {
+        min-width: 110px;
+        height: 124px;
+      }
+}

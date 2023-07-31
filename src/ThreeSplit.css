@@ -1,0 +1,9 @@
+.ThreeSplit{
+    margin: 8px 57px;
+}
+.ThreeSplit .col-4{
+    padding: 0 !important;
+}
+.ThreeSplit .row{
+    padding: 0 !important;
+}

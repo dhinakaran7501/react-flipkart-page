@@ -1,0 +1,73 @@
+.bestofElectronics {
+  background-color: white;
+  margin: 8px 57px;
+  padding: 16px;
+}
+.bestofElectronics a{
+    text-decoration: none;
+    color: black;
+}
+.greatericon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2A55E5;
+    width: 25px !important;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #2A55E5;
+}
+.greatericon>a{
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+}
+.beautyFoodToys .card{
+    width: 188px;
+    padding: 8px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.card img{
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+    transition: 0.5s;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-text p,h5{
+    margin-bottom: 0 !important;
+}
+.card-text>p{
+    font-size: 15px;
+}
+.card-text>h5{
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0;
+}
+.boe-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.row{
+    margin-bottom: 10px;
+    padding: 0px 18px;
+}
+
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

@@ -1,0 +1,160 @@
+.header-container {
+  background-color: white;
+}
+.flipkart-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flipkart-logo > a > img {
+  width: 130px;
+}
+.plus-sec {
+  display: flex;
+  gap: 5px;
+  font-weight: 600;
+  font-size: 11px;
+  margin: -8px 0px 0px 33px;
+  font-family: inter_semi_bold, fallback-inter_semi_bold, Arial, sans-serif;
+  font-style: italic;
+}
+
+.header-container form input {
+  width: 518px;
+  border-radius: 8px;
+  background-color: #f0f5ff;
+  border: 0;
+}
+.header-container form button {
+  border-color: #2a55e5 !important;
+  color: #2a55e5;
+}
+.header-container form button:hover {
+  background-color: #2a55e5 !important;
+  color: white !important;
+}
+::placeholder {
+  font-size: 15px;
+}
+.header-container li a {
+  color: black;
+  letter-spacing: 0.2px;
+  font-size: 17px;
+}
+.header-container li a:hover {
+  color: black;
+}
+.dropdown-flex1 {
+  display: flex !important;
+  align-items: center !important;
+  gap: 60px;
+}
+.color {
+  color: #2a55e5 !important;
+  font-weight: 500 !important;
+}
+.header-container hr {
+  margin: 0;
+}
+.dropdown-flex2 {
+  display: flex !important;
+  gap: 8px !important;
+}
+.header-container a {
+  --bs-dropdown-link-active-bg: initial;
+}
+.header-container li > a > p {
+  margin: 0;
+  font-size: 15px;
+}
+.more-icon {
+  font-size: 21px !important;
+}
+.baSeller > li:nth-child(1) {
+  display: block;
+}
+.grocery-log{
+    display: none;
+}
+.main-logos{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.qlogo{
+    display: none;
+    background: #2a55e5;
+    border-radius: 8px;
+    padding: 9px 71px;
+}
+.grocery-log{
+    background: #f0f5ff;
+    border-radius: 8px;
+    padding: 9px 71px;
+}
+
+
+
+
+
+
+
+/* Media Queries */
+@media (max-width: 1300px) {
+  .baSeller {
+    padding-left: 0 !important;
+  }
+  .baSeller > li:nth-child(1) {
+    display: none;
+  }
+  .header-container form input {
+    width: 352px;
+  }
+}
+@media (max-width: 992px) {
+    .navbar-toggler{
+        display: none;
+      }
+      .navbar-collapse{
+          display: none;
+      }
+}
+@media (max-width: 768px) {
+    .flipkart-logo {
+        margin-left: 0px !important;
+      }
+      .container-fluid {
+        justify-content: initial !important;
+        gap: 5px;
+        flex-direction: column;
+      }
+      form{
+        margin-left: 0px !important;
+      }
+      .grocery-log{
+          display: block;
+      }
+      .flipkart-logo{
+        display: none;
+      }
+      .qlogo{
+        display: block;
+      }
+      .navbar-collapse{
+          display: none;
+      }
+}
+@media (max-width: 480px) {
+    .qlogo{
+        padding: 9px 25px;
+    }
+    .grocery-log{
+        padding: 9px 25px;
+    }
+    .header-container form input {
+      width: 209px;
+    }
+    .navbar-collapse{
+        display: none;
+    }
+  }

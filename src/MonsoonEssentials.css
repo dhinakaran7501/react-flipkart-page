@@ -1,0 +1,95 @@
+.MonsoonEssentials a {
+    text-decoration: none;
+  }
+  .MonsoonEssentials {
+    padding: 0px 16px;
+    overflow: hidden;
+  }
+  .MonsoonEssentials .bgcolor {
+    background-color: white;
+    padding: 0px 18px;
+    width: 100%;
+  }
+  .MonsoonEssentials .row {
+    padding: 12px !important;
+    margin-bottom: 0px;
+  }
+  .MonsoonEssentials .subTopic a {
+    text-decoration: none;
+    color: black;
+  }
+  .MonsoonEssentials .greatericon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #2a55e5;
+    width: 25px !important;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #2a55e5;
+  }
+  .MonsoonEssentials .greatericon > a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+  }
+  .MonsoonEssentials .mainTopic {
+    padding: 8px 21px !important;
+  }
+  .MonsoonEssentials .col-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .MonsoonEssentials .card {
+    width: 235px;
+    padding: 8px;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .MonsoonEssentials .card img {
+    width: 80%;
+    height: 200px;
+    object-fit: contain;
+    transition: 0.5s;
+  }
+  .MonsoonEssentials .card-body {
+    padding: 0 !important;
+  }
+  .MonsoonEssentials .card-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .MonsoonEssentials .card-text p,
+  h5 {
+    margin-bottom: 0 !important;
+  }
+  .MonsoonEssentials .card-text > p {
+    font-size: 15px;
+  }
+  .MonsoonEssentials .card-text > h5 {
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.3px;
+    color: green;
+  }
+  .MonsoonEssentials .boe-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .MonsoonEssentials .card img:hover {
+    transform: scale(1.06);
+    transition: 0.5s;
+  }
+  .MonsoonEssentials .addImg img {
+    height: -webkit-fill-available;
+    width: 100%;
+  }
+  
